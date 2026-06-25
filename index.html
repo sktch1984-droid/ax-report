@@ -325,8 +325,28 @@ h2, h3, h4, h5, p, li { word-break:break-word; overflow-wrap:anywhere; }
                 <div class="pipe-step"><span class="icon">06</span><div class="name">Report</div><div class="desc">최종 결과 생성</div></div>
             </div>
 
+            <!-- 관통 메커니즘 3종 -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 2rem;">
-                
+                <div class="card" style="border: none; box-shadow: none; background: linear-gradient(135deg, #FFF7ED, #FFEDD5); padding: 1.8rem; border-radius: 16px; border-left: 4px solid #F59E0B;">
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #92400E; letter-spacing: 1px; background: rgba(245,158,11,0.12); padding: 4px 8px; border-radius: 4px;">CROSS-CUTTING</span>
+                    <h4 style="margin-top: 12px; font-size: 1.1rem; color: var(--text-main);">룰 기반 필수 요건 검증</h4>
+                    <p style="margin-top: 8px; font-size: 0.9rem; color: var(--text-sub); line-height: 1.55;">사업자번호, 필수 서류 누락 및 항목 간 수치 불일치 건을 즉시 자동 판정하는 <strong>Rule-based</strong> 검증 레이어.</p>
+                </div>
+                <div class="card" style="border: none; box-shadow: none; background: linear-gradient(135deg, #FFF1F2, #FFE4E6); padding: 1.8rem; border-radius: 16px; border-left: 4px solid #EF4444;">
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #991B1B; letter-spacing: 1px; background: rgba(239,68,68,0.1); padding: 4px 8px; border-radius: 4px;">CROSS-CUTTING</span>
+                    <h4 style="margin-top: 12px; font-size: 1.1rem; color: var(--text-main);">이상 패턴 감지 시스템</h4>
+                    <p style="margin-top: 8px; font-size: 0.9rem; color: var(--text-sub); line-height: 1.55;">과거 누적 데이터 기준 평소 범위를 벗어난 이상 단가, 허위 매출 등 리스크 징후를 포착하는 <strong>Anomaly Detection</strong> 엔진.</p>
+                </div>
+                <div class="card" style="border: none; box-shadow: none; background: linear-gradient(135deg, #EFF6FF, #DBEAFE); padding: 1.8rem; border-radius: 16px; border-left: 4px solid #3B82F6;">
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #1E40AF; letter-spacing: 1px; background: rgba(59,130,246,0.1); padding: 4px 8px; border-radius: 4px;">CROSS-CUTTING</span>
+                    <h4 style="margin-top: 12px; font-size: 1.1rem; color: var(--text-main);">가디언 에이전트 검증</h4>
+                    <p style="margin-top: 8px; font-size: 0.9rem; color: var(--text-sub); line-height: 1.55;">서류의 글자 수·숫자 나열에 AI가 낚이는 '형식 편향'을 차단하고, 화려한 ESG 서사의 실체를 재검증하는 <strong>Guardian Agent</strong>.</p>
+                </div>
+            </div>
+            <p style="font-size: 0.82rem; color: var(--text-sub); margin-top: 10px; text-align: center;">※ 위 3개 메커니즘은 파이프라인 전 단계에 걸쳐 작동하는 교차 검증 레이어입니다.</p>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 2rem;">
+
                 <div class="card" style="display: flex; flex-direction: column; justify-content: space-between; border: none; box-shadow: none; background: #EDF4FF; padding: 1.8rem; border-radius: 16px;">
                     <div>
                         <span style="font-size: 0.8rem; font-weight: 700; color: var(--primary); letter-spacing: 1px; background: rgba(0, 102, 204, 0.08); padding: 4px 8px; border-radius: 4px;">STAGE 01</span>
@@ -444,7 +464,7 @@ h2, h3, h4, h5, p, li { word-break:break-word; overflow-wrap:anywhere; }
 
                 <div style="background-color: #F0F7FF; border: 1px solid #C2D9F5; border-radius: 8px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
                     <p style="font-weight: 700; color: #1A3D6B; margin-bottom: 0.8rem;">📅 1차 핵심기능 배포 일정 (~6월 29일)</p>
-                    <ul style="margin: 0; padding-left: 1.2rem; list-style: disc;">
+                    <ul style="margin: 0; padding-left: 0; list-style: none;">
                         <li style="color: #333; font-size: 0.95rem; margin-bottom: 0.5rem;">지원서 표준화</li>
                         <li style="color: #333; font-size: 0.95rem; margin-bottom: 0.5rem;">팩트 체크 (외부채널 검증)</li>
                         <li style="color: #333; font-size: 0.95rem; margin-bottom: 0.5rem;">서류심사 (요약, 8번째 심사위원)</li>
